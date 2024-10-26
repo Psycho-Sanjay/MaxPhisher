@@ -219,7 +219,7 @@ cprint = Console().print
 # Get Columns of Screen
 columns = get_terminal_size().columns
 
-repo_url = "https://github.com/Psycho-Sanjay/MaxPhisher"
+repo_url = "https://github.com/\x4b\x61\x73\x52\x6f\x75\x64\x72\x61/MaxPhisher"
 sites_repo = "https://github.com/KasRoudra2/maxfiles"
 websites_url = f"{sites_repo}/archive/main.zip"
 repo_branch = "maxfiles-main"
@@ -597,7 +597,7 @@ def show_options(sites, is_main=True, is_login=False):
             options += optioner(i, 20) + "\n"
     options += "\n"
     if is_main:
-        options += f"{green}[{white}a{green}]{yellow} About                   {green}[{white}m{green}]{yellow} More tools        {green}[{white}0{green}]{yellow} Exit\n\n"
+        options += f"{green}[{white}a{green}]{yellow} About                           {green}[{white}0{green}]{yellow} Exit\n\n"
     else:
         if is_login and isfile(saved_file) and cat(saved_file)!="":
             options += f"{green}[{white}a{green}]{yellow} About      {green}[{white}s{green}]{yellow} Saved      {green}[{white}x{green}]{yellow} Main Menu       {green}[{white}0{green}]{yellow} Exit\n\n"
@@ -964,8 +964,7 @@ def customfol():
         elif has_files == "b":
             main_menu()
         else:
-            sprint(f"\n{info}Contact \x4b\x61\x73\x52\x6f\x75\x64\x72\x61")
-            bgtask("xdg-open https://t.me/\x4b\x61\x73\x52\x6f\x75\x64\x72\x61")
+            
             pexit()
 
 # Show saved data from saved file with small decoration
@@ -985,11 +984,9 @@ def about():
     clear()
     print(f"{red}{yellow}[{purple}ToolName{yellow}]      {cyan} : {yellow}[{green}\x4d\x61\x78\x50\x68\x69\x73\x68\x65\x72{yellow}] ")
     print(f"{red}{yellow}[{purple}Version{yellow}]       {cyan} : {yellow}[{green}{version}{yellow}] ")
-    print(f"{red}{yellow}[{purple}Author{yellow}]        {cyan} : {yellow}[{green}\x4b\x61\x73\x52\x6f\x75\x64\x72\x61{yellow}] ")
-    print(f"{red}{yellow}[{purple}Github{yellow}]        {cyan} : {yellow}[{green}https://github.com/\x4b\x61\x73\x52\x6f\x75\x64\x72\x61{purple}{yellow}] ")
-    print(f"{red}{yellow}[{purple}Messenger{yellow}]     {cyan} : {yellow}[{green}https://m.me/\x4b\x61\x73\x52\x6f\x75\x64\x72\x61{yellow}] ")
-    print(f"{red}{yellow}[{purple}Telegram {yellow}]     {cyan} : {yellow}[{green}https://t.me/\x4b\x61\x73\x52\x6f\x75\x64\x72\x61{yellow}] ")
-    print(f"{red}{yellow}[{purple}Email{yellow}]         {cyan} : {yellow}[{green}\x6b\x61\x73\x72\x6f\x75\x64\x72\x61krd@gmail.com{yellow}] ")
+    print(f"{red}{yellow}[{purple}Author{yellow}]        {cyan} : {yellow}[{green}Psycho-Sanjay{yellow}] ")
+    print(f"{red}{yellow}[{purple}Github{yellow}]        {cyan} : {yellow}[{green}https://github.com/Psycho-Sanjay{purple}{yellow}] ")
+    print(f"{red}{yellow}[{purple}Email{yellow}]         {cyan} : {yellow}[{green}hackerdk357@gmail.com{yellow}] ")
     print(f"\n{green}[{white}0{green}]{yellow} Exit                     {green}[{white}x{green}]{yellow} Main Menu       \n")
     inp = input(f"\n{ask}Choose your option: {green}")
     if inp == "0":
@@ -1046,7 +1043,6 @@ def masking(url):
 # Update of MaxPhisher
 def updater():
     internet()
-   
     if not isfile("files/maxphisher.gif"):
         return
     try:
@@ -1229,7 +1225,7 @@ def main_menu():
     shell("stty -echoctl") # Skip printing ^C
     if update:
         updater()
- 
+    """requirements()"""
     if troubleshoot in ts_commands:
         command = ts_commands[troubleshoot]
         shell(command)
