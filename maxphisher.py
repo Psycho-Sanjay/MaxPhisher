@@ -148,7 +148,7 @@ logo = f"""
 {blue}| |  | | (_| |>  <|  __/| | | | \__ \ | | |  __/ |
 {red}|_|  |_|\__,_/_/\_\_|   |_| |_|_|___/_| |_|\___|_|
 {yellow}{" "*31}             [{blue}v{version}{yellow}]
-{cyan}{" "*28}        [{blue}By {green}Psycho-Sanjay{cyan}]
+{cyan}{" "*28}        [{blue}By {green}\x4b\x61\x73\x52\x6f\x75\x64\x72\x61{cyan}]
 """
 
 lx_help = f"""
@@ -964,8 +964,8 @@ def customfol():
         elif has_files == "b":
             main_menu()
         else:
-            sprint(f"\n{info}Contact Psycho-Sanjay")
-            bgtask("xdg-open https://t.me/Psycho-Sanjay")
+            sprint(f"\n{info}Contact \x4b\x61\x73\x52\x6f\x75\x64\x72\x61")
+            bgtask("xdg-open https://t.me/\x4b\x61\x73\x52\x6f\x75\x64\x72\x61")
             pexit()
 
 # Show saved data from saved file with small decoration
@@ -985,10 +985,10 @@ def about():
     clear()
     print(f"{red}{yellow}[{purple}ToolName{yellow}]      {cyan} : {yellow}[{green}\x4d\x61\x78\x50\x68\x69\x73\x68\x65\x72{yellow}] ")
     print(f"{red}{yellow}[{purple}Version{yellow}]       {cyan} : {yellow}[{green}{version}{yellow}] ")
-    print(f"{red}{yellow}[{purple}Author{yellow}]        {cyan} : {yellow}[{green}Psycho-Sanjay{yellow}] ")
-    print(f"{red}{yellow}[{purple}Github{yellow}]        {cyan} : {yellow}[{green}https://github.com/Psycho-Sanjay{purple}{yellow}] ")
-    print(f"{red}{yellow}[{purple}Messenger{yellow}]     {cyan} : {yellow}[{green}https://m.me/Psycho-Sanjay{yellow}] ")
-    print(f"{red}{yellow}[{purple}Telegram {yellow}]     {cyan} : {yellow}[{green}https://t.me/Psycho-Sanjay{yellow}] ")
+    print(f"{red}{yellow}[{purple}Author{yellow}]        {cyan} : {yellow}[{green}\x4b\x61\x73\x52\x6f\x75\x64\x72\x61{yellow}] ")
+    print(f"{red}{yellow}[{purple}Github{yellow}]        {cyan} : {yellow}[{green}https://github.com/\x4b\x61\x73\x52\x6f\x75\x64\x72\x61{purple}{yellow}] ")
+    print(f"{red}{yellow}[{purple}Messenger{yellow}]     {cyan} : {yellow}[{green}https://m.me/\x4b\x61\x73\x52\x6f\x75\x64\x72\x61{yellow}] ")
+    print(f"{red}{yellow}[{purple}Telegram {yellow}]     {cyan} : {yellow}[{green}https://t.me/\x4b\x61\x73\x52\x6f\x75\x64\x72\x61{yellow}] ")
     print(f"{red}{yellow}[{purple}Email{yellow}]         {cyan} : {yellow}[{green}\x6b\x61\x73\x72\x6f\x75\x64\x72\x61krd@gmail.com{yellow}] ")
     print(f"\n{green}[{white}0{green}]{yellow} Exit                     {green}[{white}x{green}]{yellow} Main Menu       \n")
     inp = input(f"\n{ask}Choose your option: {green}")
