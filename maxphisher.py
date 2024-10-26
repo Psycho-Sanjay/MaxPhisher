@@ -148,7 +148,7 @@ logo = f"""
 {blue}| |  | | (_| |>  <|  __/| | | | \__ \ | | |  __/ |
 {red}|_|  |_|\__,_/_/\_\_|   |_| |_|_|___/_| |_|\___|_|
 {yellow}{" "*31}             [{blue}v{version}{yellow}]
-{cyan}{" "*28}        [{blue}By {green}Psycho-Sanjay{cyan}]
+{cyan}{" "*28}        [{blue}By {green}\x4b\x61\x73\x52\x6f\x75\x64\x72\x61{cyan}]
 """
 
 lx_help = f"""
